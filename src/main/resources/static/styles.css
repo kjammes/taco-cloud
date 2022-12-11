@@ -1,0 +1,21 @@
+.ingredient-group {
+    background-color: hsl(0, 0%, 95%);
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 40ch;
+}
+
+form {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+body {
+    margin: 1rem auto;
+    width: 70vw;
+}
