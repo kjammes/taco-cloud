@@ -57,6 +57,8 @@ public class DesignTacoController {
     @PostMapping
     public String processTaco(@Valid @ModelAttribute("taco") Taco taco, Errors errors) {
         if (errors.hasErrors()) {
+            log.error("processTaco has some errors in Errors object");
+            errors.getAllErrors().forEach(e -> log.error(e.toString()));
             return "design";
         }
         // Save the taco...

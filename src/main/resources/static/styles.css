@@ -19,3 +19,7 @@ body {
     margin: 1rem auto;
     width: 70vw;
 }
+
+.validationError {
+    color: red;
+}
